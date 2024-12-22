@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Ветеринарная клиника</title>
+    <script src="https://api-maps.yandex.ru/2.0-stable/?apikey=ef5585dc-3058-487f-9074-2ecbf215e525&load=package.full&lang=ru-RU" type="text/javascript"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+</head>
+<body>
+    <div class="menu-container">
+        <div class="header-line">
+            <div class="header-logo">
+                <img src="IMG/логотип.png" alt="" height="100px">
+            </div>
+            <p class="logo-text">The paw of help</p>
+            <h1 class="slogan">ВАШ ПИТОМЕЦ - НАША ЗАБОТА</h1>
+            <div class="menu-line"></div>
+            <div class="nav">
+                <ul class="menu-list">
+                    <li><a href="consultation.html" class="menu-button">КОНСУЛЬТАЦИЯ</a></li>
+                    <li class="dropdown">
+                        <a href="#comments-vladimir" class="menu-button">О НАС</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#location">МЕСТОПОЛОЖЕНИЕ</a></li>
+                            <li><a href="#contacts">СОЦСЕТИ</a></li>
+                            <li><a href="#comments-vladimir">ОТЗЫВЫ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="service.html" class="menu-button">УСЛУГИ</a></li>
+                    <li><a href="#connect" class="menu-button">ЗАПИСАТЬСЯ НА ПРИЕМ</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-us">
+        <p class="work-hours">Часы работы:</p>
+        <ul class="days">
+            <li class="work-days">Будни:<br> 8:00 - 22:00</li>
+            <li class="weekends">Выходные:<br> 12:00 - 17:30</li>
+        </ul>
+    </div>
+
+    <div class="discount-block">
+        <div class="discount-header">
+            <span class="discount-number">6</span>
+            <span class="discount-number">8 734</span>
+            <div class="discount-number">23 452</div>
+        </div>
+        <div class="discount-header2">
+            <div class="discount-number1">лет помогаем<br>животным</div>
+            <div class="discount-number2">успешных операций</div>
+            <div class="discount-number3">довольных клиентов</div>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="container">
+        </div>
+    </div>
+
+
+    <div class="slider">
+        <div class="slide-container swiper">Наши специалисты
+            <div class="swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="IMG/врач1.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Петров Иван Сергеевич</h2>
+                        <p class="description">Специализация: хирург, невролог, нейрохирург<br>Опыт работы: 11 лет</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="IMG/врач2.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Смирнов Алексей Николаевич</h2>
+                        <p class="description">Специализация: кардиолог, терапевт, уролог<br>Опыт работы: 8 лет</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="IMG/врач3.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Сидоров Сидр Сидорович</h2>
+                        <p class="description">Специализация: дерматолог, аллерголог, иммунолог<br>Опыт работы: 15 лет</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="IMG/врач4.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Кузнецова Анна Ивановна</h2>
+                        <p class="description">Специализация: офтальмолог, эндокринолог, гастроэнтеролог<br>Опыт работы: 7 лет</p>
+                    </div>
+                </div>
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"></span>
+                        <div class="card-image">
+                            <img src="IMG/врач5.png" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Мемов Мем Мемович</h2>
+                        <p class="description">Специализация: онколог, рентгенолог, патологоанатом<br>Опыт работы: 25 лет</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+
+
+    <div class="discount-content">
+        <p class="discount-text">Скидка 50% на 1 осмотр!</p>
+    </div>
+
+
+
+    <div class="map-container">
+
+        <div class="map-text">
+            <div id="location" class="map-header">Вы можете найти нас здесь! </div>
+            <div class="text-casual">Тимирязевская улица, 49</div>
+            <div class="map-pic"><img src="IMG/значок_карты.png" alt="значок карты" height="50px"></div>
+        </div>
+        <div class="map">
+            <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac16fe921ce339923c8744e6d2b911df93348c81a3b09e90f920088e3b191be52&amp;width=1000&amp;height=500&amp;lang=ru_RU&amp;scroll=true"></script>
+        </div>
+    </div>
+
+    <div class="slider-container">
+        <div class="slider2">
+            <div class="slide-container swiper">Что о нас говорят:
+                <div class="swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Даниил</h2>
+                            <p class="description">Спасибо за оперативную помощь! Моя кошка почувствовала себя лучше уже после первого визита. Вы – настоящие мастера своего дела!</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Ирина</h2>
+                            <p class="description">Я в восторге от уровня сервиса в этой клинике. Все сотрудники очень вежливы и профессиональны. Мой пес теперь здоров и счастлив, благодаря вам!</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Валерий</h2>
+                            <p class="description">Отличная клиника! Здесь всегда помогут в любой ситуации. Ветеринары очень внимательны и заботливы. Рекомендую всем владельцам животных</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Юлия</h2>
+                            <p class="description">Мы привезли сюда нашего попугая, и он получил просто великолепный уход. Спасибо за вашу работу и заботу о наших пернатых друзьях!</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <div class="card-content">
+                            <h2 class="name">Иван</h2>
+                            <p class="description">Я очень благодарна за то, как вы позаботились о моем питомце. Ветеринары здесь не только профессионалы, но и очень добрые люди.</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-pagination"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="comment-system">
+        <h1 id= "comments-vladimir" class="comment-header">Напишите свой отзыв!</h1>
+        <div id="comments"></div>
+        <form id="commentForm">
+            <input type="text" id="commentName" placeholder="Ваше имя" required><br>
+            <textarea id="commentText" placeholder="Напишите свой отзыв" required></textarea><br>
+            <button id="submitComment" type="submit">Отправить</button>
+        </form>
+        <button id="clearComments">Удалить все отзывы</button>
+
+        <script src="comments.js"></script>
+    </div>
+
+    <div id="contacts" class="contacts">
+        <div id="connect" class="connect">Свяжитесь с нами прямо сейчас!</div>
+        <div class="telephone-num">8-777-777-77-77</div>
+        <p class="contacts-text">Наши соцсети:</p>
+        <a href="https://telegram.com" target="_blank">Telegram</a>
+        <a href="https://vk.com" target="_blank">Vk</a>
+        <a href="https://www.facebook.com" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://twitter.com" target="_blank">Twitter</a>
+
+    </div>
+    <div class="text-end">
+        <p> The paw of help © 2018—2024</p>
+     </div>
+
+     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+     <script src="slider.js"></script>
+</body>
+</html>

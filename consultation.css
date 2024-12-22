@@ -1,0 +1,79 @@
+body {
+    font-family: "Pacifico", cursive;
+    background-image: url('IMG/фон-сайта.png');
+    cursor: url('IMG/курсор.png'), auto;
+}
+
+.to-main {
+    position:absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.menu-button {
+    background-color: #13161F;
+    color: #6A876D;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 18px;
+    border: 2px solid #6A876D;
+    margin-right: 70px;
+    cursor: url('IMG/курсор.png'), auto;
+}
+
+.menu-button:hover {
+    background-color: #1a5c6a;
+    transition: 2s;
+}
+
+.consultation-form {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.consultation-form h1 {
+    margin-bottom: 20px;
+}
+
+.consultation-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.consultation-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.consultation-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.consultation-form button:hover {
+    background-color: #45a049;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.sending {
+    font-family: "Pacifico", cursive;
+}
